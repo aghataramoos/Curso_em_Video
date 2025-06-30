@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Programa</title>
+    <style>
+        body { /* Isso é um comentário em CSS*/
+            background-color: rgb(80, 80, 181);
+            color: white;
+            font: normal 20pt Arial;
+        }
+
+        h1{
+            color: rgb(202, 202, 93);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1> <!--Isso é um comentário html-->
+    <p>Já me livrei da maldição !!</p>
+    <script>
+        // Number.parseInt ou Number.parseFloat servem para reconhecer o número como inteiro ou real
+
+       var n1 = Number(window.prompt('Digite um número: ')) // Recebe string
+       var n2 = Number(window.prompt('Digite outro número: ')) // Recebe string 
+       var soma = n1 + n2
+       
+       //window.alert('A soma dos números é: ' + String (soma))
+       window.alert(`A soma de ${n1} + ${n2} = ${soma}`) //Contatenação
+       // number + number = Adição 
+       // string + string = Contatenação
+
+    </script>
+</body>
+</html>
